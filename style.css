@@ -1,0 +1,160 @@
+body {
+  margin: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.toolbar h3 {
+  color: gray;
+  margin-left: 40px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.divider {
+  background-color: lightgray;
+  width: 1500px;
+  border: solid 1px lightgray;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.cart {
+  background-color: darkorange;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  color: black;
+  justify-items: center;
+  align-items: center;
+}
+
+.desc {
+  color: grey;
+}
+
+.corp {
+  color: gray;
+}
+
+.discount {
+  background-color: black;
+  color: white;
+  width: 35px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.fallprice {
+  display: flex;
+  align-items: center;
+}
+.fallprice h4 {
+  margin-left: 20px;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+}
+
+.plusminus {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  border: none;
+  width: 50px;
+  color: darkorange;
+  font-weight: 600;
+  font-size: large;
+}
+
+.amount {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.more {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.less {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.old {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.profile {
+  margin-left: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.thumb {
+  margin-right: 20px;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.thumbnails {
+  margin-left: 100px;
+}
+
+.img1 {
+  border-radius: 20px;
+  height: 500px;
+}
+
+.thumb1 {
+  border: darkorange 3px solid;
+  opacity: 20%;
+}
+
+.product {
+  display: flex;
+}
+
+.img1 {
+  margin-left: 100px;
+}
+
+.page {
+  margin-right: 600px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.cart i {
+  margin-right: 15px;
+}

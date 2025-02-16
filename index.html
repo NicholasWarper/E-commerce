@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="toolbar">
+        <img class="logo" src="images/logo.svg" alt="" />
+        <h3 class="coll">Collections</h3>
+        <h3 class="men">Men</h3>
+        <h3 class="Fmen">Women</h3>
+        <h3 class="abt">About</h3>
+        <h3 class="cont">Contact</h3>
+        <div class="profile">
+          <img src="images/icon-cart.svg" alt="" />
+          <img class="avatar" src="images/image-avatar.png" alt="" />
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="product">
+        <div class="images">
+          <img class="img1" src="images/image-product-1.jpg" alt="" />
+          <div class="thumbnails">
+            <img
+              class="thumb thumb1"
+              src="images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="thumb thumb2"
+              src="images/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="thumb thumb3"
+              src="images/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="thumb thumb4"
+              src="images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="page">
+          <div class="info">
+            <div class="title">
+              <h4 class="corp">Sneaker Company</h4>
+
+              <h1 class="name">Fall Limited Edition Sneakers</h1>
+            </div>
+
+            <div>
+              <p class="desc">
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+              </p>
+            </div>
+
+            <div class="price">
+              <div class="fallprice">
+                <h2 class="new">$125.00</h2>
+                <h4 class="discount">50%</h4>
+              </div>
+              <h4 class="old">$250.00</h4>
+            </div>
+          </div>
+
+          <div class="select">
+            <div class="plusminus">
+              <button class="less btn">-</button>
+              <p class="amount btn">0</p>
+              <button class="more btn">+</button>
+            </div>
+
+            <div>
+              <button class="cart">
+                <i class="fa-solid fa-cart-shopping"></i> Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
